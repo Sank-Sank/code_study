@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    color: #3c3c3c;
+    overflow-x: hidden;
+}
+.wrapper{
+    width: 100%;
+    height: 100% ;
+}
+/* 顶部导航栏 */
+.wrapper .top-nav-wrap{
+    width: 1190px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+.wrapper .top-nav-wrap .top-nav-wrap-left{
+    float: left;
+}
+.wrapper .top-nav-wrap .top-nav-wrap-right{
+    float: right;
+}
+.wrapper .top-nav-wrap ul li{
+    float: left;
+    margin-right: 7px;
+}
+.wrapper .top-nav-wrap a{
+    color: #6c6c6c;
+    font-size: 12px;
+    line-height: 35px;
+}
+.wrapper .top-nav-wrap .login{
+    color: #f40;
+}
+.wrapper .top-nav-wrap a:hover{
+    color: #f40;
+}
+.wrapper .top-nav-wrap span{
+    color: #6c6c6c;
+    font-size: 12px;
+    line-height: 35px;
+}
+.wrapper .top-nav-wrap span:hover{
+    color: #f40;
+}
+.wrapper .top-nav-wrap .top-nav-wrap-left .country .china-span{
+    font-size: 13px;
+    padding:0 6px;
+}
+.wrapper .top-nav-wrap .background-picture{
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background-image: url('../img/triangle.png');
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+.wrapper .top-nav-wrap .background-picture.shopCar-picture{
+    width: 12px;
+    height: 12px;
+    background-image: url('../img/shopping.png');
+}
+.wrapper .top-nav-wrap .background-picture.collect-picture{
+    width: 12px;
+    height: 12px;
+    background-image: url('../img/star.png');
+}
+.wrapper .top-nav-wrap .background-picture.web-nav-picture{
+    width: 8px;
+    height: 8px;   
+    background-image: url('../img/menu.png');
+}
+/* 搜索区域 */
+.wrapper .search-wrap{
+    width: 100%;
+    height: 97px;
+    padding-top: 24px;
+    background-color: #fff;
+}
+.wrapper .search-wrap .search-content{
+    width: 1190px;
+    height: 88px;
+    margin: 0 auto;
+}
+.wrapper .search-wrap .search-content .logo-box{
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    width: 190px;
+    height: 105px;
+    background-image: url('../img/taobao.png');
+    background-size: 100% 100%;
+    margin-right: 50px;
+}
+.wrapper .search-wrap .search-content .search-box{
+    display: inline-block;
+    width: 627px;
+    height: 87px;
+    vertical-align: top;
+}
+.wrapper .search-wrap .search-content .search-box .search-top{
+    width: 627px;
+    height: 62px;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-tab{
+    height: 22px;
+    margin-left: 17px;
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-tab ul li{
+    float: left;
+    width: 36px;
+    height: 22px;
+    color: #f40;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 4px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    cursor: pointer;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-tab ul li:hover{
+    background-color:#ffeee5;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-tab .select{
+    color: #fff;
+    font-weight: 700;
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%)
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel{
+    position: relative;
+    width: 627px;
+    height: 40px;
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel form .button{
+    width: 74px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .button .search-submit{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    border:none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .search-input-box{
+    width: 551px;
+    height: 36px;
+    border : 2px solid #ff5000;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    overflow: hidden;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .search-input-box .search-input{
+    height: 36px;
+    width:472px;
+    overflow: hidden;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .search-input-box .search-input input{
+    height: 36px;
+    width:472px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    text-indent: 10px;
+}
+
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .search-picture,
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .camera-picture{
+    display: inline-block;
+    position: absolute;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .search-picture{
+    width: 15px;
+    height: 17px;
+    top: 11px;
+    left: 14px;
+    background-image:url(../img/search.png);
+    background-size:100% 100%;
+}
+.wrapper .search-wrap .search-content .search-box .search-top .search-panel .camera-picture{
+    width: 20px;
+    height: 22px;  
+    top: 11px;
+    right: 90px;
+    background-image:url(../img/camera.png);
+    background-size:100% 100%;
+}
+.wrapper .search-wrap .search-content .search-box .search-bottom{
+    width: 627px;
+    height: 18px;
+}
+.wrapper .search-wrap .search-content .search-box .search-bottom a{
+    font-size:11px;
+    margin-right: 1px;
+    color:#3c3c3c;
+    text-decoration: none;
+    line-height: 18px;
+}
+.wrapper .search-wrap .search-content .search-box .search-bottom a:hover{
+    cursor: pointer;
+    color:#ff5000;
+}
+.wrapper .search-wrap .search-content .search-box .search-bottom .active{
+    color:#ff5000;
+}
+.wrapper .search-wrap .search-content .QRcode-box{
+    display: inline-block;
+    width: 76px;
+    height: 90px;
+    border: 1px solid #eee;
+    vertical-align: top;
+    margin-left: 120px;
+    position: relative;
+}
+.wrapper .search-wrap .search-content .QRcode-box .phoneTaobao{
+    color:#ff5000;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left:6px;
+}
+.wrapper .search-wrap .search-content .QRcode-box .code{
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url("../img/taoBaoQRCode.png") ;
+    background-size:100% 100%;
+    margin-left:6px;
+}
+.wrapper .search-wrap .search-content .QRcode-box .close{
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: -15px;
+    color: #ddd;
+    border:1px solid #eee;
+    font-size:13px;
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+}
+/* 中间导航条 */
+.wrapper .screen-nav{
+    width: 100%;
+    height: 30px;
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    margin: 0 auto;
+}
+.wrapper .screen-nav .screen-nav-content{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+.wrapper .screen-nav .screen-nav-content h2{
+    float: left;
+    color:#fff;
+    font-size: 16px;
+    width: 190px;
+    text-align: center;
+    line-height: 30px;
+    height: 100%;
+    background-color: #f41;
+}
+.wrapper .screen-nav .screen-nav-content ul li{
+    float: left;
+    margin:0 3px;
+    padding:0 4px;
+}
+.wrapper .screen-nav .screen-nav-content ul li a{
+    color: #fff;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+.wrapper .screen-box{
+    width: 1190px;
+    height: 650px;
+    background-color: purple;
+    margin: 0 auto;
+}
